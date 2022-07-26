@@ -1,8 +1,11 @@
+import '../static/header.scss'
+
 function Header () {
     return (
-        <div>
+        <div className="header-container">
             <div className="header-img">
-                <h1>Siddharth Pande</h1>
+                <img src="https://via.placeholder.com/180X210" alt="Siddharth Pande"></img>
+                <h1 className="title">Siddharth Pande</h1>
             </div>
             <div className="about-me">
                 <h2>About me</h2>

@@ -1,0 +1,63 @@
+*, 
+*:before, 
+*:after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    min-height: 45vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3992B2;
+    color: white;
+    padding: 40px 50px;
+
+    .header-img {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        font-size: 0;
+
+        .title {
+            position: absolute;
+            color: White;
+            font-size: 1.3rem;
+            font-weight: 100;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            width: max-content;
+        }
+    }
+
+    .about-me {
+        background-color: white;
+        color: black;
+        width: 70%;
+        padding: 10px 10px;
+    }
+
+    .icon-btns {
+        display: flex;
+        gap: 15px;
+        width: max-content;
+        margin-left: auto;
+        margin-right: 15px;
+
+        > div {
+            width: 25px;
+            height: 25px;
+            
+            img {
+                width: max-content;
+                height: 100%;
+            }
+        }
+    }
+}
