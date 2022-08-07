@@ -3,8 +3,9 @@ import '../static/header.scss'
 function Header () {
     return (
         <div className="header-container">
+            <div className="skewedHeader"></div>
             <div className="header-img">
-                <img src="https://via.placeholder.com/180X210" alt="Siddharth Pande"></img>
+                <img src="https://via.placeholder.com/180X150" alt="Siddharth Pande"></img>
                 <h1 className="title">Siddharth Pande</h1>
             </div>
             <div className="about-me">

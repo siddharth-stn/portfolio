@@ -12,15 +12,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #3992B2;
     color: white;
     padding: 40px 50px;
+
+    .skewedHeader {
+        background-color: #3992B2;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        transform: skew(0, -7deg) translateY(-130px);
+    }
 
     .header-img {
         position: relative;
         margin: 0;
         padding: 0;
         font-size: 0;
+        background-color: gray;
+        width: 180px;
+        height: 210px;
 
         .title {
             position: absolute;
@@ -41,6 +52,7 @@
         color: black;
         width: 70%;
         padding: 10px 10px;
+        box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.7);
     }
 
     .icon-btns {
