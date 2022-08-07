@@ -1,5 +1,4 @@
 .main {
-    border: 2px solid red; //! to be deleted
     padding-left: 250px;
     padding-right: 250px;
     display: flex;
@@ -10,8 +9,99 @@
 
     margin-bottom: 1000px; //!to be deleted
 
+    h2 {
+        margin-bottom: 5px;
+    }
+
     .workContainer {
-        border: 2px solid green;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+        row-gap: 40px;
+
+        & > div {
+            min-width: 200px;
+            min-height: 300px;
+
+            .projectScreenShot {
+                height: 70%;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-size: 2.5rem;
+            }
+        }
+
+        .workOne {
+            .projectScreenShot {
+                background-color: #9E221E;
+            }
+        }
+
+        .workTwo {
+            .projectScreenShot {
+                background-color: #7C75CA;
+            }
+        }
+
+        .workThree {
+            .projectScreenShot {
+                background-color: #5E8F4D;
+            }
+        }
+
+        .workFour {
+            .projectScreenShot {
+                background-color: #C363B4;
+            }
+        }
+
+        .workFive {
+            .projectScreenShot {
+                background-color: #D88F39;
+            }
+        }
+
+        .workSix {
+            .projectScreenShot {
+                background-color: #4BA2D2;
+            }
+        }
+
+        .projectDetail {
+            padding: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            box-shadow: 0px 1px 2px rgba(0,0,0,0.7);
+
+            .projectDescription {
+                margin-top: 5px;
+                margin-bottom: 25px;
+            }
+        }
+
+        .projectHeader {
+            display: flex;
+
+            .projectLinks {
+                margin-left: auto;
+                display: flex;
+                gap: 7px;
+            }
+        }
+
+        .github-btn, .share-btn {
+            width: 20px;
+
+            img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+
+
     }
 
 }
