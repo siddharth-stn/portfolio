@@ -1,3 +1,17 @@
 .main {
-    border: 2px solid red;
+    border: 2px solid red; //! to be deleted
+    padding-left: 250px;
+    padding-right: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+
+    margin-bottom: 1000px; //!to be deleted
+
+    .workContainer {
+        border: 2px solid green;
+    }
+
 }

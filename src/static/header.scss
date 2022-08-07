@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: center;
     color: white;
-    padding: 40px 50px;
+    padding: 40px 250px;
 
     .skewedHeader {
         background-color: #3992B2;
@@ -21,7 +21,7 @@
         width: 100%;
         position: absolute;
         z-index: -1;
-        transform: skew(0, -7deg) translateY(-130px);
+        transform: skew(0, -10deg) translateY(-150px);
     }
 
     .header-img {
@@ -50,15 +50,20 @@
     .about-me {
         background-color: white;
         color: black;
-        width: 70%;
+        width: 100%;
         padding: 10px 10px;
         box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.7);
+
+        h2 {
+            margin-bottom: 5px;
+        }
     }
 
     .icon-btns {
         display: flex;
         gap: 15px;
         width: max-content;
+        margin-top: 10px;
         margin-left: auto;
         margin-right: 15px;
 
